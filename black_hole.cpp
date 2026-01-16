@@ -227,8 +227,8 @@ struct Engine {
         this->texture = result[1];
     }
     void generateGrid(const vector<ObjectData>& objects) {
-        const int gridSize = 25;
-        const float spacing = 1e10f;  // tweak this
+        const int gridSize = 75;
+        const float spacing = 5e9f;  // tweak this
 
         vector<vec3> vertices;
         vector<GLuint> indices;
